@@ -63,7 +63,7 @@ app.delete("/tasks/:id", (req, res) => {
   res.json({ success: true });
 });
 
-// Start the server
+
 app.listen(PORT, () =>
   console.log(`✅ Server running on http://localhost:${PORT}`)
 );
